@@ -2,7 +2,7 @@ import { createBrowserRouter } from 'react-router-dom';
 import { rootRoutes } from './routes/parent/rootRoutes';
 
 const router = createBrowserRouter(rootRoutes, {
-  basename: '/my-typescript-react/',
+  basename: '/typescript-react-playground/',
 });
 
 export default router;

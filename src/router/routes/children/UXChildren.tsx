@@ -1,4 +1,4 @@
-import Editor from '../../../pages/UX-technique/Editor/Editor.js';
+import Main from '../../../pages/UX-technique/Editor/Main.js';
 import { Route } from '../../../types/common.js';
 
 export const UXChildren: Route[] = [
@@ -9,7 +9,7 @@ export const UXChildren: Route[] = [
   },
   {
     path: 'editor',
-    element: <Editor />,
+    element: <Main />,
     title: '위지위그 editor.js',
   },
 ];
